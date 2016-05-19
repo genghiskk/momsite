@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <title>momsite</title>
+
+    </head>
+    <body>
+        <div class="app">
+            <p id="deviceready" class="event">Connecting to Device</p>
+        </div>
+        <div class="head01" style="text-align: center;">
+            Hey Mom!<br>
+            the site for the mom on the Run<br>
+            <br></div>
+            <br>
+            <div class="head01"style="text-align: center;">
+                Questions for Mom<br>
+                <br>
+                <button id="get-questions-btn">Ask Mom Questions</button>
+                <form id="Questions" name="Questions"></form>
+                <div id="btn">
+                    </div>
+            </div>
+        </div>
+        <form id="Questions" name="Questions" class="head01"></form>
+        <script src="scripts/jquery-2.2.3.min.js"></script>
+        <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/momdb.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
+</html>
